@@ -1,0 +1,21 @@
+{
+    "name": "yii2-helpers/yii2-helpers",
+    "description": "Yiiplus helper function for Yii Framework 2.0.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","helpers","logstash"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "gengxiankun",
+            "email": "gengxiankun@126.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiiplus\\helpers\\": "src"
+        }
+    }
+}
